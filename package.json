@@ -1,0 +1,26 @@
+{
+  "name": "system-designs",
+  "version": "1.0.0",
+  "description": "System Design",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node ./src/main.ts",
+    "start-solid":"ts-node ./src/SOLID-principles/single-responsiblity-principle.ts",
+    "start-ocp":"ts-node ./src/SOLID-principles/open-close-principle.ts",
+    "start-lsp":"ts-node ./src/SOLID-principles/liskov-substitution-principle.ts",
+    "start-isp":"ts-node ./src/SOLID-principles/interface-segregation-principle.ts",
+    "start-di":"ts-node ./src/SOLID-principles/dependancy-inversion-principle.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2"
+  }
+}
